@@ -14,11 +14,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.roomcronoalberto.model.CronometroViewModel
-import com.example.roomcronoalberto.model.CronosViewModel
-import com.example.roomcronoalberto.model.NavManager
-import com.example.roomcronoalberto.model.RoomCronoAlbertoTheme
+import com.example.roomcronoalberto.navigation.NavManager
+import com.example.roomcronoalberto.ui.theme.RoomCronoAlbertoTheme
+import com.example.roomcronoalberto.viewModels.CronometroViewModel
+import com.example.roomcronoalberto.viewModels.CronosViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

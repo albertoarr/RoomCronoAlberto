@@ -8,7 +8,9 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.roomcronoalberto.viewModels.CronometroViewModel
 import com.example.roomcronoalberto.viewModels.CronosViewModel
-
+import com.example.roomcronoalberto.views.AddView
+import com.example.roomcronoalberto.views.EditView
+import com.example.roomcronoalberto.views.HomeView
 
 @Composable
 fun NavManager(cronometroVM: CronometroViewModel, cronosVM: CronosViewModel){
@@ -26,5 +28,3 @@ fun NavManager(cronometroVM: CronometroViewModel, cronosVM: CronosViewModel){
         }
     }
 }
-
-

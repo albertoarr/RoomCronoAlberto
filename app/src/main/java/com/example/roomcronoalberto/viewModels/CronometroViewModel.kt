@@ -30,6 +30,7 @@ class CronometroViewModel @Inject constructor (private val repository: CronosRep
                 tiempo=item.crono
                 state=state.copy(title=item.title)
 
+
             }
         }
     }
@@ -76,5 +77,4 @@ class CronometroViewModel @Inject constructor (private val repository: CronosRep
 
         }
     }
-
 }
